@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "courseworkoop"
+version = "0.1.0"
+description = ""
+authors = ["natalya tomova <natalyayurevna19@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+requests = "^2.31.0"
+pathlib = "^1.0.1"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.1"
+pytest-cov = "^4.1.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
